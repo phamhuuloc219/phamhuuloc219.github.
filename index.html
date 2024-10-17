@@ -2,12 +2,229 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Pham Huu Loc</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile PHL</title>
+    <link rel="icon" href="https://imdezcode.files.wordpress.com/2020/02/imdezcode-logo.png">
+    <!-- Custom Css -->
+    <link rel="stylesheet" href="style.css">
+
+    <script src="main.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            var disclaimer = document.querySelector("img[alt='www.000webhost.com']");
+            if(disclaimer) {
+                disclaimer.remove();
+            }
+        });
+    </script>
+
+    <!-- FontAwesome 5 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
 </head>
 <body>
-    <h1>hello</h1>
+    <!-- Navbar top -->
+    <div class="navbar-top">
+        <div class="title">
+            <!-- clock-real-time -->
+            <div class="clock-real-time">
+                <div class="codepro-time">
+                    <span id="codepro-hour"></span>
+                    <span id="codepro-date"></span>
+                </div>
+                <style>
+                      .codepro-time{text-align:center;}
+                      #codepro-hour{font-weight:400;display:block;font-size:30px;margin: 0 0 5px;letter-spacing:5px;}
+                </style>
+                <script type="text/javascript">
+                    var myVar = setInterval(function() {
+                          myTimer()
+                    }, 1000);
+                    function myTimer() {
+                          var d = new Date();
+                          var t = d.toLocaleTimeString();
+                          document.getElementById("codepro-hour").innerHTML = t;
+                    }
+                    n = new Date();
+                    if (n.getTimezoneOffset() == 0) t = n.getTime() + (7 * 60 * 60 * 1000);
+                    else t = n.getTime();
+                    n.setTime(t);
+                    var dn = new Array("Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat");
+                    d = n.getDay();
+                    m = n.getMonth() + 1;
+                    y = n.getFullYear()
+                    var date = dn[d] + ", " + (n.getDate() < 10 ? "0" : "") + n.getDate() + "/" + (m < 10 ? "0" : "") + m + "/" + y;
+                    document.getElementById("codepro-date").innerHTML = date;
+                </script>
+            </div>
+        </div>
+    </div>
+    <!-- End -->
+
+    <!-- Sidenav -->
+    <div class="sidenav">
+        <div class="profile">
+            <!-- <img src="https://imdezcode.files.wordpress.com/2020/02/imdezcode-logo.png" alt="" width="100" height="100"> -->
+            <img src="images/phl.jpg" alt="" width="120" height="120">
+
+            <div class="name">
+                Pham Huu Loc
+            </div>
+            <div class="job">
+                Software Developer
+            </div>
+        </div>
+
+        <div class="sidenav-url">
+            <div class="url">
+                <a href="#profile">Profile</a>
+                <hr align="center">
+            </div>
+            <div class="url">
+                <a href="#payment">QR Code</a>
+                <hr align="center">
+            </div>
+        </div>
+    </div>
+    <!-- End -->
+
+    <!-- Main -->
+    <div class="main">
+        <h2>IDENTITY</h2>
+        <div class="card">
+            <div class="card-body">
+                <div class="table-reponsive">
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td>Name</td>
+                                <td>:</td>
+                                <td>Pham Huu Loc</td>
+                            </tr>
+                            <tr>
+                                <td>Email</td>
+                                <td>:</td>
+                                <td>loc.ph.2193@gmail.com</td>
+                            </tr>
+                            <tr>
+                                <td>Address</td>
+                                <td>:</td>
+                                <td>Khanh Hoa, Vietnam</td>
+                            </tr>
+                            <tr>
+                                <td>Hobbies</td>
+                                <td>:</td>
+                                <td>Music, Football</td>
+                            </tr>
+                            <tr>
+                                <td>Job</td>
+                                <td>:</td>
+                                <td>Software Developer</td>
+                            </tr>
+                            <tr>
+                                <td>Skill</td>
+                                <td>:</td>
+                                <td>Flutter, Python, Java, JavaScript, C#</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <h2>SOCIAL MEDIA</h2>
+        <div class="card">
+            <div class="card-body">
+                <div class="social-media">
+                    <a href="https://www.facebook.com/phloc2193" class="fa-stack fa-sm">
+                        <span>
+                            <i class="fas fa-circle fa-stack-2x"></i>
+                            <i class="fab fa-facebook fa-stack-1x fa-inverse"></i>
+                        </span>
+                    </a>
+                    <a href="https://twitter.com/phloc2192003" class="fa-stack fa-sm">
+                        <span>
+                            <i class="fas fa-circle fa-stack-2x"></i>
+                            <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+                        </span>
+                    </a>
+                    <a href="https://www.instagram.com/21st_coluuhmahp_sep" class="fa-stack fa-sm">
+                        <span>
+                            <i class="fas fa-circle fa-stack-2x"></i>
+                            <i class="fab fa-instagram fa-stack-1x fa-inverse"></i>
+                        </span>
+                    </a>
+                    <a href="https://github.com/phamhuuloc219" class="fa-stack fa-sm">
+                        <span>
+                            <i class="fas fa-circle fa-stack-2x"></i>
+                            <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                        </span>
+                    </a>
+                    <a href="tel:0374362577" class="fa-stack fa-sm">
+                        <span>
+                            <i class="fas fa-circle fa-stack-2x"></i>
+                            <i class="fas fa-phone-alt fa-stack-1x fa-inverse"></i>
+                        </span>
+                    </a>
+                    <a href="https://maps.app.goo.gl/Ph9QeafAgNDKsnFA8" class="fa-stack fa-sm">
+                        <span>
+                            <i class="fas fa-circle fa-stack-2x"></i>
+                            <i class="far fa-map fa-stack-1x fa-inverse"></i>
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End -->
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            var profileLink = document.querySelector('a[href="#profile"]');
+            var paymentLink = document.querySelector('a[href="#payment"]');
+            var trollLink = document.querySelector('a[href="#troll"]');
+
+            profileLink.addEventListener('click', function(event) {
+                event.preventDefault();
+                alert("You are on the profile page!");
+            });
+
+            paymentLink.addEventListener('click', function(event) {
+                event.preventDefault();
+                window.location.href = "payment.html";
+            });
+            
+            trollLink.addEventListener('click', function(event) {
+                event.preventDefault();
+                window.location.href = "trollvn.html";
+            });
+        });
+    </script>
+    
+    <script>//<![CDATA[
+            const disabledKeys = ["c", "C", "x", "J", "u", "I"];
+            const showAlert = e => {
+            e.preventDefault();
+            return alert("Sorry, you can't view or copy source codes this way!");
+            }
+            document.addEventListener("contextmenu", e => {
+            showAlert(e);
+            });
+            document.addEventListener("keydown", e => {
+            // calling showAlert() function, if the pressed key matched to disabled keys
+            if((e.ctrlkey && disabledKeys.includes (e.key)) || e.key === "F12") {
+            showAlert(e);
+            }
+            });
+            winndow.addEventListener("load", function(){
+            try {
+            !function t(n) {
+            1 === ("" + n / n).length && 0 !== n || function() {}.constructor("debugger")(),t(++n)
+            }(0)
+            } catch (n) {
+            setTimeout(t, 100)
+            }
+            });
+    //]]></script>
+
 </body>
 </html>
