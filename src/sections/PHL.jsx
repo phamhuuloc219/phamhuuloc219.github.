@@ -3,7 +3,8 @@ import phlImg from '../assets/phl-at.png';
 import themeIcon from '../assets/sun.svg';
 import xIcon from '../assets/twitter-light.svg';
 import githubIcon from '../assets/github-light.svg';
-import facebookIcon from '../assets/linkedin-light.svg';
+import facebookIcon from '../assets/facebook-1.svg';
+import zlIcon from '../assets/zalo-1.svg';
 import CV from '../assets/pham_huu_loc_cv.pdf';
 function PHL() {
   return (
@@ -33,6 +34,9 @@ function PHL() {
                 </a>
                 <a href="https://facebook.com/phloc2193" target='_blank'>
                     <img src={facebookIcon} alt="Facebook icon" />
+                </a>
+                <a href="https://zalo.me/0376282119" target='_blank'>
+                    <img src={zlIcon} alt="Zalo icon" />
                 </a>
             </span>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quaerat aperiam accusantium. Provident laborum id placeat itaque eos officiis explicabo illum at, harum vitae minima eligendi commodi! Sequi, ut ipsam.</p>
