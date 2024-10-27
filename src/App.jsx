@@ -1,10 +1,10 @@
-import './App.css'
-
+import './App.css';
+import PHL from './sections/PHL';
 function App() {
 
   return (
     <>
-      Hello
+      <PHL/>
     </>
   )
 }
