@@ -1,12 +1,27 @@
 import style from './PHLStyles.module.css';
 import phlImg from '../assets/phl-at.png';
-import themeIcon from '../assets/sun.svg';
-import xIcon from '../assets/twitter-light.svg';
-import githubIcon from '../assets/github-light.svg';
-import facebookIcon from '../assets/facebook-1.svg';
-import zlIcon from '../assets/zalo-1.svg';
+import moon from '../assets/moon.svg';
+import sun from '../assets/sun.svg';
+import xLight from '../assets/twitter-light.svg';
+import githubLight from '../assets/github-light.svg';
+import facebookLight from '../assets/facebook-1.svg';
+import zaloLight from '../assets/zalo-1.svg';
+import xDark from '../assets/twitter-dark.svg';
+import githubDark from '../assets/github-dark.svg';
+import facebookDark from '../assets/facebook-2.svg';
+import zaloDark from '../assets/zalo-2.svg';
 import CV from '../assets/pham_huu_loc_cv.pdf';
+import { useTheme } from '../common/ThemeContext';
+
 function PHL() {
+    const { theme, toggleTheme } = useTheme();
+
+    const themeIcon = theme === 'light' ? sun : moon;
+    const xxIcon = theme === 'light' ? xLight : xDark;
+    const fbIcon = theme === 'light' ? facebookLight : facebookDark;
+    const zlIcon = theme === 'light' ? zaloLight : zaloDark;
+    const ghIcon = theme === 'light' ? githubLight : githubDark;
+
   return (
     <section id='phl' className={style.container}>
         <div className={style.colorModeContainer}>
@@ -20,6 +35,7 @@ function PHL() {
                 className={style.colorMode} 
                 src={themeIcon} 
                 alt="Color mode icon" 
+                onClick={toggleTheme}
             />
         </div>
         <div className={style.info}>
@@ -27,13 +43,13 @@ function PHL() {
             <h2>Software Developer</h2>
             <span>
                 <a href="https://x.com/phloc2192003" target='_blank'>
-                    <img src={xIcon} alt="X icon" />
+                    <img src={xxIcon} alt="X icon" />
                 </a>
                 <a href="https://github.com/phamhuuloc219" target='_blank'>
-                    <img src={githubIcon} alt="Github icon" />
+                    <img src={ghIcon} alt="Github icon" />
                 </a>
                 <a href="https://facebook.com/phloc2193" target='_blank'>
-                    <img src={facebookIcon} alt="Facebook icon" />
+                    <img src={fbIcon} alt="Facebook icon" />
                 </a>
                 <a href="https://zalo.me/0376282119" target='_blank'>
                     <img src={zlIcon} alt="Zalo icon" />
