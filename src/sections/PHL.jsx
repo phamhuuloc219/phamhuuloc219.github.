@@ -3,13 +3,16 @@ import phlImg from '../assets/phl-at.png';
 import moon from '../assets/moon.svg';
 import sun from '../assets/sun.svg';
 import xLight from '../assets/twitter-light.svg';
-import githubLight from '../assets/github-light.svg';
-import facebookLight from '../assets/facebook-1.svg';
-import zaloLight from '../assets/zalo-1.svg';
 import xDark from '../assets/twitter-dark.svg';
+import githubLight from '../assets/github-light.svg';
 import githubDark from '../assets/github-dark.svg';
+import facebookLight from '../assets/facebook-1.svg';
 import facebookDark from '../assets/facebook-2.svg';
+import facebookColor from '../assets/icons8-facebook.svg';
+import zaloLight from '../assets/zalo-1.svg';
 import zaloDark from '../assets/zalo-2.svg';
+import zaloColor from '../assets/icons8-zalo.svg';
+import instagramColor from '../assets/icons8-instagram.svg';
 import CV from '../assets/pham_huu_loc_cv.pdf';
 import { useTheme } from '../common/ThemeContext';
 
@@ -49,10 +52,15 @@ function PHL() {
                     <img src={ghIcon} alt="Github icon" />
                 </a>
                 <a href="https://facebook.com/phloc2193" target='_blank'>
-                    <img src={fbIcon} alt="Facebook icon" />
+                    {/* <img src={fbIcon} alt="Facebook icon" /> */}
+                    <img src={facebookColor} alt="Facebook icon" />
                 </a>
                 <a href="https://zalo.me/0376282119" target='_blank'>
-                    <img src={zlIcon} alt="Zalo icon" />
+                    {/* <img src={zlIcon} alt="Zalo icon" /> */}
+                    <img src={zaloColor} alt="Zalo icon" />
+                </a>
+                <a href="https://www.instagram.com/21st_coluuhmahp_sep/" target='_blank'>
+                    <img src={instagramColor} alt="Instagram icon" />
                 </a>
             </span>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quaerat aperiam accusantium. Provident laborum id placeat itaque eos officiis explicabo illum at, harum vitae minima eligendi commodi! Sequi, ut ipsam.</p>
