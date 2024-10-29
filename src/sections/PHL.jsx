@@ -63,7 +63,9 @@ function PHL() {
                     <img src={instagramColor} alt="Instagram icon" />
                 </a>
             </span>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quaerat aperiam accusantium. Provident laborum id placeat itaque eos officiis explicabo illum at, harum vitae minima eligendi commodi! Sequi, ut ipsam.</p>
+            <p className={style.description}>
+            I am a final-year Information Technology student at Nha Trang University with a strong focus on mobile development. I have hands-on experience in building mobile applications using Flutter and React Native, and I am passionate about creating user-friendly and efficient applications. I am eager to apply my skills and learn new technologies to contribute to innovative projects in the tech industry.
+            </p>
             <a href={CV}>
                 <button className="hover" download> Resume</button>
             </a>
