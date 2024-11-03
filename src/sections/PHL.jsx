@@ -1,16 +1,12 @@
 import style from './PHLStyles.module.css';
-import phlImg from '../assets/phl-at.png';
+import phlImg from '../assets/phl-cartooon.png';
 import moon from '../assets/moon.svg';
 import sun from '../assets/sun.svg';
 import xLight from '../assets/twitter-light.svg';
 import xDark from '../assets/twitter-dark.svg';
 import githubLight from '../assets/github-light.svg';
 import githubDark from '../assets/github-dark.svg';
-import facebookLight from '../assets/facebook-1.svg';
-import facebookDark from '../assets/facebook-2.svg';
 import facebookColor from '../assets/icons8-facebook.svg';
-import zaloLight from '../assets/zalo-1.svg';
-import zaloDark from '../assets/zalo-2.svg';
 import zaloColor from '../assets/icons8-zalo.svg';
 import instagramColor from '../assets/icons8-instagram.svg';
 import CV from '../assets/pham_huu_loc_cv.pdf';
@@ -21,8 +17,6 @@ function PHL() {
 
     const themeIcon = theme === 'light' ? sun : moon;
     const xxIcon = theme === 'light' ? xLight : xDark;
-    const fbIcon = theme === 'light' ? facebookLight : facebookDark;
-    const zlIcon = theme === 'light' ? zaloLight : zaloDark;
     const ghIcon = theme === 'light' ? githubLight : githubDark;
 
   return (
