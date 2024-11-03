@@ -2,6 +2,7 @@ import './App.css';
 import PHL from './sections/PHL';
 import Project from './sections/Projects/Project';
 import Skills from './sections/Skills/Skills';
+import Contact from './sections/Contact/Contact';
 function App() {
 
   return (
@@ -9,6 +10,7 @@ function App() {
       <PHL/>
       <Project/>
       <Skills/>
+      <Contact/>
     </>
   )
 }
