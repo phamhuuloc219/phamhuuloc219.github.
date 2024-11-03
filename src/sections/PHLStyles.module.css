@@ -73,3 +73,25 @@
     flex-direction: column;
     gap: 20px;
 }
+
+@media(width >= 800px){
+    .container{
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: space-between;
+        
+        .phl{
+            max-width: 350px;
+            width: 350px;
+        }
+    }
+}
+
+@media(width >= 1400px){
+    .container{        
+        .phl{
+            max-width: 400px;
+            width: 400px;
+        }
+    }
+}

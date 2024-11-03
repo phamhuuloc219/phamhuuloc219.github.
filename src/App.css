@@ -68,3 +68,35 @@ p{
 img{
     border-radius: 50% 50% 50% 50%;
 }
+
+@media (width >= 800px){
+    #root{
+        gap: 100px;
+    }
+    h1{
+        font-size: 40px;
+    }
+    h2,h3{
+        font-size: 24px;
+    }
+    p{
+        font-size: 20px;
+    }
+
+    .sectionTitle {
+        margin-bottom: 60px;
+    }
+}
+
+@media (width >= 1400px){
+    #root{
+        gap: 200px;
+    }
+    h1{
+        font-size: 48px;
+    }
+
+    .sectionTitle {
+        margin-bottom: 75px;
+    }
+}
