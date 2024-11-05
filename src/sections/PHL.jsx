@@ -9,7 +9,7 @@ import githubDark from '../assets/github-dark.svg';
 import facebookColor from '../assets/icons8-facebook.svg';
 import zaloColor from '../assets/icons8-zalo.svg';
 import instagramColor from '../assets/icons8-instagram.svg';
-import CV from '../assets/pham_huu_loc_cv.pdf';
+import CV from '../assets/CV Pham Huu Loc - Pham-Huu-Loc-TopCV.vn.pdf';
 import { useTheme } from '../common/ThemeContext';
 
 function PHL() {
