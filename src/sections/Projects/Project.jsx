@@ -14,13 +14,13 @@ function Project() {
             src={shoe_shop}  
             link="https://github.com/phamhuuloc219/PHL_shoe_store_client" 
             h3="PHL Shoe Store"
-            p = "PHL Shoe Store Client"
+            p = "Build app Flutter Building an App Using Flutter for PHL Shoe Store CustomersPHL Shoe Store Client"
             />
           <ProjectCard 
             src={food_delivery} 
             link="https://github.com/phamhuuloc219/food_delivery_app" 
             h3="RASCHJRS"
-            p = "Food delivery application"
+            p = "Building a food delivery app using Flutter for restaurant customers RASCHJRS"
             />
 
           <ProjectCard 
