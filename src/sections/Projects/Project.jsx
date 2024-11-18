@@ -2,7 +2,7 @@ import React from 'react'
 import styles from './ProjectStyles.module.css'
 import food_delivery from '../../assets/food_delivery.png'
 import ProjectCard from '../../common/ProjectCard'
-import learn_python from '../../assets/python-logo-only.png'
+import learn_python from '../../assets/Python_logo.webp'
 import shoe_shop from '../../assets/logo-shop.webp'
 
 function Project() {
