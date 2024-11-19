@@ -4,6 +4,7 @@ import food_delivery from '../../assets/food_delivery.png'
 import ProjectCard from '../../common/ProjectCard'
 import learn_python from '../../assets/Python_logo.webp'
 import shoe_shop from '../../assets/logo-shop.webp'
+import mobile_shop from '../../assets/phl_mobile.webp'
 
 function Project() {
   return (
@@ -29,6 +30,13 @@ function Project() {
             h3="Learn Python"
             p = "Learn Python with students"
             />
+
+          <ProjectCard 
+            src={mobile_shop}  
+            link="https://github.com/phamhuuloc219/OSS-Web-MobileShop" 
+            h3="Mobile Shop"
+            p = "Final project for open source software development course"
+            /> 
         </div>
     </section>
   )
