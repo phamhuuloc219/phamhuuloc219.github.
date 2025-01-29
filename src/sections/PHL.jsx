@@ -53,7 +53,10 @@ function PHL() {
                     {/* <img src={zlIcon} alt="Zalo icon" /> */}
                     <img src={zaloColor} alt="Zalo icon" />
                 </a>
-                <a href="https://www.instagram.com/21st_coluuhmahp_sep/" target='_blank'>
+                {/* <a href="https://www.instagram.com/21st_coluuhmahp_sep/" target='_blank'>
+                    <img src={instagramColor} alt="Instagram icon" />
+                </a> */}
+                <a href="http://heart.ntu307.vpsttt.vn/" target='_blank'>
                     <img src={instagramColor} alt="Instagram icon" />
                 </a>
             </span>
