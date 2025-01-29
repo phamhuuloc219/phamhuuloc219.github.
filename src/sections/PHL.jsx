@@ -9,6 +9,7 @@ import githubDark from '../assets/github-dark.svg';
 import facebookColor from '../assets/icons8-facebook.svg';
 import zaloColor from '../assets/icons8-zalo.svg';
 import instagramColor from '../assets/icons8-instagram.svg';
+import heart from '../assets/heart.svg';
 import CV from '../assets/CV Pham Huu Loc - Pham-Huu-Loc-TopCV.vn.pdf';
 import { useTheme } from '../common/ThemeContext';
 
@@ -57,7 +58,7 @@ function PHL() {
                     <img src={instagramColor} alt="Instagram icon" />
                 </a> */}
                 <a href="http://heart.ntu307.vpsttt.vn/" target='_blank'>
-                    <img src={instagramColor} alt="Instagram icon" />
+                    <img src={heart} alt="Instagram icon" />
                 </a>
             </span>
             <p className={style.description}>
